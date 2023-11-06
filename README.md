@@ -13,6 +13,8 @@ The first hackathon with a focus on embedded programming for Raspberry Pi Pico u
 
 The boilerplate `main.py` file contains all imports and libraries (including links to the documentation) that you will need to complete the below challenges!
 
+Remember, Python requires proper indentation of code to work!
+
 ## Challenge
 Your mission is to expand on the boilerplate code found in `main.py` by adding the following functions:
 - Printing "Button pressed" (or similar) to the console when the button is pressed
@@ -27,3 +29,4 @@ Your mission is to expand on the boilerplate code found in `main.py` by adding t
     You will need to implement some basic input debounce, otherwise the LED will blink when pressing the button
 - Send a HTTP POST request with data from the potentiometer, when the button is pressed
 - Add a "press-and-hold" function to the button. Holding the button down should either dim or brighten the LED, until it is released 
+- Instead of polling the button value each loop, use interrupts for the button input
