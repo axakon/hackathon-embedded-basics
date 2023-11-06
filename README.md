@@ -2,7 +2,7 @@
 The first hackathon with a focus on embedded programming for Raspberry Pi Pico using Micropython
 
 ## Recommended setup
-1. Download and install the [https://thonny.org/](Thonny IDE)
+1. Download and install the [Thonny IDE](https://thonny.org/)
 2. Clone this repo
 3. Open the `main.py` file in Thonny
 4. Connect the Raspberry Pi Pico to your computer using a USB cable, it should show up automatically after a couple of seconds
