@@ -9,13 +9,13 @@ LED_PIN = 18 # Mode = OUT (Output)
 BUTTON_PIN = 19 # Mode = IN (Input)
 POTENTIOMETER_PIN = 26
 
-# Setup the pins here (LED is on the house)
+# Setup the pins here (LED pin definition is on the house)
 led = Pin(LED_PIN, mode=Pin.OUT)
 
-# Setup the ADC here
+# Setup the ADC (Analogue to Digital Converter) here
 # https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion
 
-# Setup the PWM here
+# Setup the PWM (Pulse Width Modultion) here
 # https://docs.micropython.org/en/latest/rp2/quickref.html#pwm-pulse-width-modulation
 
 # Connect to WiFi here, before the main loop
