@@ -27,6 +27,6 @@ Your mission is to expand on the boilerplate code found in `main.py` by adding t
 ## Bonus challenge
 - Adding a toggle functionality to the button. Pressing it once should turn the LED on, and pressing it again should turn the LED off. 
     You will need to implement some basic input debounce, otherwise the LED will blink when pressing the button
-- Send a HTTP POST request with data from the potentiometer, when the button is pressed
+- Send a HTTP POST request with data from the potentiometer, when the button is pressed. You can use Postmans Echo end-point `https://postman-echo.com/post` for simple testing. Don't forget to add the correct headers!
 - Add a "press-and-hold" function to the button. Holding the button down should either dim or brighten the LED, until it is released 
 - Instead of polling the button value each loop, use interrupts for the button input
